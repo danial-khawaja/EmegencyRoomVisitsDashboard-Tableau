@@ -1,52 +1,30 @@
 # Emegency Room Visits Dashboard in Tableau
 https://public.tableau.com/views/EmergencyRoomVisitsDashboard_16873309313150/Dashboard1?:language=en-US&amp;:display_count=n&amp;:origin=viz_share_link
 
+I'm thrilled to showcase my 2nd data analytics project! I leveraged my Tableau skills to design a dashboard that simulates emergency room visits - a project that I would be tasked with as a Healthcare Data Analyst. In general, analyzing visits / customer traffic is widely applicable in several fields of analytics that deals with improving client services.
 
-## 📊 Data Analysis Insights & Action Items Report 📊
+𝘏𝘦𝘳𝘦'𝘴 𝘢𝘯 𝘰𝘷𝘦𝘳𝘷𝘪𝘦𝘸 𝘰𝘧 𝘮𝘺 𝘱𝘳𝘰𝘤𝘦𝘴𝘴:
 
-I recently completed a Tableau dashboard project aimed at analyzing emergency room (ER) visit data to identify areas of improvement and maximize efficiency in the ER department. This project was a part of my healthcare analytics portfolio, designed to prepare me for entry-level healthcare data analyst roles. Here are the key insights and action items derived from the analysis:
+### ❓ Defining the Question:
 
-### Insights:
+- How can the hospital maximize efficiency in Emergency Department operations in order to improve patient outcomes and satisfaction?
 
-1️⃣ Patient Volume Analysis:
+- It is vital to understand areas of improvement and derive insights on wait times and satisfaction scores since we are dealing with an emergency room and people's lives are at stake.
 
-- The total number of patients visiting the ER is an essential metric to monitor. By tracking the monthly trend of ER visits, we can identify peak periods and plan resource allocation accordingly.
-- Analyzing the gender distribution of ER visitors allows us to understand the utilization patterns and tailor services to meet the specific needs of different patient groups.
+### 📌 Objective:
 
-2️⃣ Wait Time Analysis:
+- Analyze emergency room (ER) visit data by constructing visualizations with the aim to maximize operational efficiency and patient satisfaction. I delved into ER visit data, examining relevant variables and constructing interactive graphs. 📉
 
-- The average wait time over time provides valuable insights into the efficiency of the ER department. By monitoring this metric on a monthly basis, we can identify any trends or patterns that may impact patient satisfaction.
-- The heat map of average wait time offers a visual representation of peak and off-peak periods. This information can help in scheduling staff effectively to minimize wait times during high-demand periods.
+- The main variables are: number of patients visiting ER (total number of all patients subdivided by percentage of gender), average wait time by months (line graph), average patient satisfaction by months (line graph), number of patients by age in emergency department (area chart), patient race (bar graph), average wait time (heat map), and department referral (bar graph). 📊
 
-3️⃣ Patient Satisfaction Analysis:
+### ✍ Data Collection:
 
-- Monitoring average patient satisfaction scores on a monthly basis helps us gauge the quality of care provided by the ER department. Any significant fluctuations can indicate areas that require improvement.
-- By correlating patient satisfaction scores with other variables such as wait time and demographic information, we can identify potential factors that influence patient satisfaction.
-  
-4️⃣ Patient Demographic Analysis:
+- I used a RWFD (real world fake data) dataset from data.world. RWFD is useful for healthcare analytics projects as hospitals are not keen on sharing sensitive data and publicizing confidential patient information would be a HIPAA violation. Both of which make finding clinical datasets tricky for healthcare data analytics projects. Nonetheless, I found the perfect dataset as I am able to simulate a real hospital environment.
 
-- Analyzing the distribution of patients by age allows us to understand the age groups that utilize the ER the most. This information can guide resource allocation and tailor services to cater to specific age-related needs.
-- Examining patient race using a horizontal histogram helps in understanding the diversity of the patient population and ensures equitable healthcare delivery.
-  
-5️⃣ Specialty Department Referrals:
+### 🔍 Data Analysis:
 
-- Analyzing the horizontal histogram of specialty department referrals enables us to identify the most common types of referrals from the ER. This information is valuable for resource planning and coordinating with other departments.
+1️⃣ 𝘗𝘢𝘵𝘪𝘦𝘯𝘵 𝘍𝘭𝘰𝘸: By monitoring monthly ER visits by gender and race, I identified peak periods, enabling resource allocation to effectively meet demand while better understanding our patient demographics. 📅
 
-### Action Items:
+2️⃣ 𝘌𝘧𝘧𝘪𝘤𝘪𝘦𝘯𝘤𝘺: Analyzing average wait time revealed trends in busy days and times as well as bottlenecks, guiding process improvements to minimize patient wait times. ⏰
 
-1️⃣ Resource Allocation:
-
-- Based on the analysis of patient volume and trends, allocate staff and resources according to the anticipated demand during peak and off-peak periods. This will help optimize service delivery and reduce wait times.
-
-2️⃣ Process Improvement:
-
-- Identify any bottlenecks or inefficiencies contributing to longer wait times. Collaborate with the ER team to streamline processes and implement strategies such as triage protocols or staffing adjustments to expedite patient care.
-
-3️⃣ Patient Satisfaction Enhancement:
-
-- Conduct targeted surveys or interviews to gain qualitative insights into factors affecting patient satisfaction. Focus on areas where satisfaction scores are lower and implement initiatives to address these concerns, such as improved communication or patient education programs.
-
-4️⃣ Diversity and Inclusion:
-
-- Foster an inclusive environment by ensuring equitable healthcare delivery across different racial and ethnic groups. Implement diversity training programs for staff and tailor services to meet the specific needs of diverse patient populations.
-- By leveraging these insights and implementing the suggested action items, healthcare organizations can improve the efficiency of their emergency room departments, enhance patient satisfaction, and ensure the delivery of high-quality care.
+3️⃣ 𝘗𝘢𝘵𝘪𝘦𝘯𝘵 𝘚𝘢𝘵𝘪𝘴𝘧𝘢𝘤𝘵𝘪𝘰𝘯: Correlating satisfaction scores with wait time and demographics highlighted insights on similarities and differences in patient happiness by age, race, gender, and time. 👍
